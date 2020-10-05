@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: SWAN_CI_CD_pipeline
+on: 
+  workflow_dispatch:
+    inputs:
+      package_version:
+        description: 'Package Version'     
+        required: true
+        default: ''       
+      package_name:
+        description: 'Package Name'     
+        required: true
+        default: ''       
+jobs:
+  printInputs:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Printing input from the other repo"
+        echo "Tags: pkg_ver = ${{ github.event.inputs.package_version }}  pkg_name = ${{ github.event.inputs.package_name }}"
