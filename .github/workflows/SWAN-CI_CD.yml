@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: SWAN CI/CD pipeline
+name: SWAN_CI_CD_pipeline
 on: 
   workflow_dispatch:
     inputs:
