@@ -20,4 +20,4 @@ jobs:
     steps:
     - run: |
         echo "Printing input from the other repo"
-        echo "Tags: pkg_ver = ${{ github.event.inputs.package_version }}  pkg_name = ${{ github.event.inputs.package_name }}" 
+        echo "Tags: pkg_ver = ${{ github.event.inputs.package_version }}  pkg_name = ${{ github.event.inputs.package_name }}"
