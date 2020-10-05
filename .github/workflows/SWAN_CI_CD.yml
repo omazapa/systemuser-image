@@ -1,5 +1,5 @@
 
-name: 'SWAN CI/CD pipeline'
+name: SWAN CI/CD pipeline
 on: 
   workflow_dispatch:
     inputs:
