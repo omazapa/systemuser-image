@@ -198,7 +198,7 @@ RUN mv /usr/local/lib/python3.7/site-packages/ipykernel /usr/local/lib/python3.7
 # Install all of our extensions
 # Ignore (almost all) dependencies because they have already been installed or come from CVMFS
 RUN pip install --no-deps \
-            hdfsbrowser==1.0.0 \
+            hdfsbrowser==2.0.1 \
             sparkconnector==1.0.0 \
             sparkmonitor==1.1.0 \
             swancontents==1.0.1 \
